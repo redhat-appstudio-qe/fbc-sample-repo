@@ -8,10 +8,10 @@ metadata:
     pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
-      == "base-vuhwse" && ( "4.13/***".pathChanged() || ".tekton/component-fbc-push.yaml".pathChanged()
+      == "base-obuijp" && ( "4.13/***".pathChanged() || ".tekton/component-fbc-push.yaml".pathChanged()
       || "catalog.Dockerfile".pathChanged() )
   labels:
-    appstudio.openshift.io/application: application-tavs
+    appstudio.openshift.io/application: application-guhf
     appstudio.openshift.io/component: component-fbc
     pipelines.appstudio.openshift.io/type: build
   name: component-fbc-on-push
